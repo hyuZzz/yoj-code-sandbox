@@ -1,2 +1,13 @@
-package com.yuhi.yuojcodesandbox.controller;public class MainController {
+package com.yuhi.yuojcodesandbox.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController("/")
+public class MainController {
+    @GetMapping("/heatlh")
+    public String healthCheck(){
+        return "ok";
+
+    }
 }
