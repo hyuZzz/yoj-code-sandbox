@@ -1,3 +1,4 @@
+package com.yuhi.sandbox.security;
 
 import java.security.Permission;
 
